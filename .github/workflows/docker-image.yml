@@ -23,4 +23,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: wilant/wilant.be
           tag_with_ref: true
-    
+      - name: Available platforms
+        run: echo ${{ steps.buildx.outputs.platforms }}
