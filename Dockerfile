@@ -8,7 +8,6 @@ COPY . .
 RUN npm run build
 
 # production stage
-FROM nginx:stable-alpine as production-stage
-COPY --from=build-stage /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx-debug", "-g", "daemon off;"]
+FROM httpd:alpine as production-stage
+COPY ./app/dist /usr/local/apache2/htdocs/
+COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
