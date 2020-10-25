@@ -9,5 +9,5 @@ RUN npm run build
 
 # production stage
 FROM httpd:alpine as production-stage
-COPY ./app/dist /usr/local/apache2/htdocs/
+COPY --from=build-stage /app/dist /usr/share/nginx/html
 COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
