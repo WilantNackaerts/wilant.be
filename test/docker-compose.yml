@@ -1,0 +1,6 @@
+version: '3'
+services:
+  wilant:
+    image: wilant/wilant.be:latest
+    ports:
+      - "8081:80"
