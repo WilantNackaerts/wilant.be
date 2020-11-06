@@ -3,7 +3,7 @@
     <h1>Soon TM</h1>
     <img
       class="roomba"
-      src="../assets/rumba.jpg"
+      src="../assets/roomba.jpg"
     />
   </div>
 </template>
