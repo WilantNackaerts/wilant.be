@@ -33,6 +33,3 @@ jobs:
           push: true
           tags: wilant/wilant.be:latest
       
-      - name: Update production service
-        #run: curl -X POST "https://portainer.wilant.be/api/webhooks/05365fed-7b1b-44fd-bd80-9295ca7030fb"
-   
