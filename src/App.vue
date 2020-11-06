@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <construction/>
+    <Construction/>
   </div>
 </template>
 
 <script>
-import Construction from './components/Construction.vue'
+import Construction from './components/Construction.vue';
 
 export default {
   name: 'Wilant.be',
   components: {
-    Construction
-  }
-}
+    Construction,
+  },
+};
 </script>
 
 <style>
