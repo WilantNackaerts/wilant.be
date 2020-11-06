@@ -1,16 +1,24 @@
 <template>
   <div>
     <h1>Soon TM</h1>
+    <img
+      class="roomba"
+      src="../assets/rumba.jpg"
+    />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'construction'
+  name: 'construction',
 
-}
+};
 </script>
 
 <style>
+.roomba{
+  width: 30%;
+  height: auto;
+}
 
 </style>
