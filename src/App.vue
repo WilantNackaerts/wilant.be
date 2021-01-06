@@ -1,19 +1,17 @@
 <template>
   <div class="columns">
     <Nav/>
-    <Main/>
+    <router-view/>
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav.vue';
-import Main from './components/Main.vue';
 
 export default {
-  name: 'Wilant.be',
+  name: 'App',
   components: {
     Nav,
-    Main,
   },
 };
 </script>
