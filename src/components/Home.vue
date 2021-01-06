@@ -1,7 +1,7 @@
 <template>
-  <div class="column is-four-fifths container">
-    <p>
-      Hello, I'm a field service engineer
+  <div class="container main">
+    <p class="intro">
+      Hi, I'm Wilant and I'm a field service engineer
     </p>
   </div>
 </template>
@@ -13,5 +13,8 @@ export default {
 </script>
 
 <style>
+.intro{
+  font-size: xxx-large;
+}
 
 </style>
