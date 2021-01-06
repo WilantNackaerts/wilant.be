@@ -2,10 +2,13 @@
   <div class="container contact">
     <h2>Contact me</h2>
     <p>
-      Intrested in getting in touche, send me a mail!
+      Interested to get in touch, send me a mail!
     </p>
     <p>
       <a href="wilant.nackaerts@gmail.com">wilant.nackaerts@gmail.com</a>
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/wilant-nackaerts/">linkedin.com/in/wilant-nackaerts</a>
     </p>
   </div>
 </template>

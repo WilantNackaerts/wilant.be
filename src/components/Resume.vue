@@ -14,7 +14,7 @@
       </div>
       <div class="column is-half">
         <p>Elmos</p>
-        <p>Internship front-end devoloper Vue.js</p>
+        <p>Internship front-end devolopment Vue.js</p>
         <p><time>03/2020</time> - <time>06/2020</time></p>
       </div>
       <div class="column is-half">
@@ -48,9 +48,9 @@
     </div>
     <h2>Languages</h2>
       <ul class="resume_list">
-        <li>Dutch - mother tongu</li>
+        <li>Dutch - mother tongue</li>
         <li>English - advanced</li>
-        <li>French - intermidiate</li>
+        <li>French - intermediate</li>
       </ul>
     <h2>Skills</h2>
     <div class="columns is-multiline">
