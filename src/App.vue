@@ -1,27 +1,34 @@
 <template>
-  <div id="app">
-    <Construction/>
+  <div class="columns">
+    <div class="column is-one-fifth">
+      <Menu/>
+    </div>
+    <div class="column">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import Construction from './components/Construction.vue';
+import Menu from './components/Menu.vue';
 
 export default {
-  name: 'Wilant.be',
+  name: 'App',
   components: {
-    Construction,
+    Menu,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.container{
+  height: 100%;
+  margin-top: 2em;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
